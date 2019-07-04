@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice 3 - 4 (Creating a calculator)</title>
+    <style>
+        #soma, #subtracao, #multiplicacao, #divisao, #resto {
+            font-size: 1.5rem;
+            font-family: Verdana;
+            padding: 1rem;
+            background-color: #ffea66;
+        }
+
+        #soma {
+            color: green;
+        }
+        #subtracao {
+            color: red;
+        }
+        #multiplicacao {
+            color: blue;
+        }
+        #divisao {
+            color: cadetblue;
+        }
+
+        .numero {
+            font-size: 1.5rem;
+            font-family: Verdana;
+            padding: 1rem;
+            color: #a0a0a0;
+            background-color: #515151;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var x1 = prompt ("Write the first number:");
+        var y2 = prompt ("Write the second number:");
+
+        x1 = parseInt (x1);
+        y2 = parseInt (y2);
+
+        var soma = x1 + y2;
+        var subtracao = x1 - y2;
+        var multiplicacao = x1 * y2;
+        var divisao = x1 / y2;
+        var resto = x1 %  y2;
+
+        document.write ("<div class='numero'>First number: " + x1 + ". </div>");
+        document.write ("<div class='numero'>Second number: " + y2 + ". </div>");
+
+        document.write ("<div id='soma'> Soma: " + soma + ". </div>");
+        document.write ("<div id='subtracao'>Subtracao: " + subtracao + ". </div>");
+        document.write ("<div id='multiplicacao'>Multiplicacao: " + multiplicacao + ". </div>");
+        document.write ("<div id='divisao'>Divisao: " + divisao + ". </div>");
+        document.write ("<div id='resto'>Resto: " + resto + ". </div>");
+    </script> 
+</body>
+</html>
