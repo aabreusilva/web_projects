@@ -1,0 +1,50 @@
+body{
+	background: gray;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: -10px;
+}
+
+#cabe{
+	width: relative;
+	height: 50px;
+	border: solid 2px red;
+	background: white;
+	display: block;
+	margin: 5px;
+	text-align: center;
+}
+
+#menu{
+	width: relative;
+	height: 50px;
+	border: solid 2px green;
+	background: white;
+	display: block;
+	margin: 5px;
+	text-align: center;
+}
+
+.imag{
+	background: white;
+	width: 189px;
+	padding: 20px;
+	float: left;
+	margin: 5px;
+	border: solid 2px blue;
+	text-align: center;
+}
+
+#roda{
+	width: relative;
+	height: 50px;
+	border: solid 2px yellow;
+	background: white;
+	display: block;
+	clear: both;
+	text-align: center;
+}

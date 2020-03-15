@@ -1,0 +1,42 @@
+#cabe{
+	background: #5c5c3d;
+	display: block;
+	width: 1342px;
+	height: 50px;
+	margin: 2.5px;
+	text-align:center;
+}
+
+#roda{
+	background: #5c5c3d;
+	display: block;
+	width: 1342px;
+	height: 50px;
+	margin: 20px 2.5px;
+	text-align:center;
+}
+
+.menu{
+	background: #005ce6;
+	width: 200px;
+	height: 30px;
+	margin: 2.5px;
+	text-align:center;
+}
+#resu{
+	width: 200px;
+	height: 140px;
+	border: solid 2px;
+	position: relative;
+	float: left;
+	top: -130px;
+	left: 300px;
+	display: block;
+}
+
+.menu:hover .op{
+	background: #b300b3;
+	width: 200px;
+	height: 40px ;
+	
+}

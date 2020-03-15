@@ -1,0 +1,48 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.titulo{
+	color: white;
+	font-weight: bold;
+	background-color: orange;
+	text-align: center;
+	height: 70px;
+	padding: 20px;
+	font-size: 20px;
+}
+img,.filmes{
+	width: 400px;
+	height: 400px;
+	margin:7px;
+	margin-left: 50px;
+	color: white;
+	cursor: pointer;
+}
+.exibiçao {
+	background-color: black;
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex-wrap: wrap;
+	
+	height: 1300px;
+
+}
+footer{
+	background-color: orange;
+	padding:20px;
+	color:white;
+}
+span{
+	border:solid 2px white;
+	border-radius: 10px
+}
+.tituloinfo{
+	font-size: 15px;
+}
+p{
+	margin: 2px;
+}

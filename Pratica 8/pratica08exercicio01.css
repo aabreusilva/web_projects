@@ -1,0 +1,17 @@
+table, {
+    div {
+position: absolute;
+top: 150px;
+left: 150px;
+} 
+}
+
+h2.esquerdo {
+    position: relative;
+    left: -20px;
+    }
+    h2.direito {
+    position: relative;
+    left: 20px;
+    }
+    

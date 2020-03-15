@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="pratica07exercicio01.css">
+    <script type="text/javascript" src="pratica07exercicio01.js"></script>
+    <title>pratica07exercicio01</title>
+
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th> Nome do Aluno</th>
+                <th> Nota P1</th>
+                <th> Nota P2</th>
+                <th> Nota T1 </th>
+                <th> Nota Total </th>
+                <th> Faltas </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Média</td>
+                <td colspan="5">71,8</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr onclick="mostra (total1.innerHTML,falta1.innerHTML);" onmouseover="mostraaprovado (total1.innerHTML,falta1.innerHTML);">
+                <td>Ana</td>
+                <td>29</td>
+                <td>17</td>
+                <td>27</td>
+                <td id="total1">73</td>
+                <td id="falta1">0</td>
+            </tr>
+            <tr onclick="mostra (total2.innerHTML,falta2.innerHTML);" onmouseover="mostraaprovado (total2.innerHTML,falta2.innerHTML);">
+                <td>Gisele</td>
+                <td>28</td>
+                <td>18</td>
+                <td>24</td>
+                <td id="total2">73</td>
+                <td id="falta2">3</td>
+            </tr>
+            <tr onclick="mostra (total3.innerHTML,falta3.innerHTML);" onmouseover="mostraaprovado (total3.innerHTML,falta3.innerHTML);">
+                <td>Jane</td>
+                <td>26</td>
+                <td>20</td>
+                <td>24</td>
+                <td id="total3">55</td>
+                <td id="falta3">1</td>
+            </tr>
+            <tr onclick="mostra (total4.innerHTML,falta4.innerHTML);" onmouseover="mostraaprovado (total4.innerHTML,falta4.innerHTML);">
+                <td>Jorge</td>
+                <td>25</td>
+                <td>19</td>
+                <td>29</td>
+                <td id="total4">73</td>
+                <td id="falta4">4</td>
+            </tr>
+            <tr onclick="mostra (total5.innerHTML,falta5.innerHTML);" onmouseover="mostraaprovado (total5.innerHTML,falta5.innerHTML);">>
+                <td>Marina</td>
+                <td>30</td>
+                <td>16</td>
+                <td>27</td>
+                <td id="total5">73</td>
+                <td id="falta5">1</td>
+            </tr>
+        </tbody>
+    </table>
+     <div id="mensagem"></div>
+</body>
+</html>

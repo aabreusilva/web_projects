@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Confeitaria Maria Chocolate</title>
+	<link rel="stylesheet" href="estilocontatos.css">
+	<script src="formulario.js"> </script>
+</head>
+<body>
+	<header>
+		<div class="logoImg">
+			<img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+		</div>
+
+		<div class="titulo">
+			<h1>Confeitando para a alegria da sua vida...</h1>
+		</div>
+
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="bolos.html" >Bolos</a></li>
+			<li><a href="tortas.html" >Tortas</a></li>
+			<li><a href="festas.html" >Festas</a></li>
+			<li><a href="contatos.html" >Contatos</a></li>			
+		</ul>
+
+	</nav>
+	
+	<section>
+		<form action="" method="post">
+			<table>
+				<tr>
+					<td>Nome:</td> 
+					<td><input id="Inome" type="text"></p>
+				</tr>
+				<tr>
+					<td>Email: </td>
+					<td><input id="Iemail" type="email"></td>
+				</tr>
+				<tr>
+					<td>Tipo de contato: </td>
+						<td><select name="Ncontato">
+					<option value="Elogio" selected="selected">Elogio</option>
+					<option value="Critica">Critica</option>
+					<option value="Duvidas">Duvidas</option>
+					<option value="Entrega">Entrega</option>
+					</select> </td>
+				</tr>
+				<tr>
+					<td>Mensagem: </td>
+					<td><textarea name="Nmensagem" id="Imensg" cols="30" rows="10"></textarea></td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td> <input type="Radio" name="Ninfo"><label for="Iinfo">Quero receber mensagens deliciosas...</label></td>
+				</tr>
+					<td> </td>	
+					<td><input onclick="formulario()" type="button" id="Ienviar" value="ENVIAR"></td>
+				</tr>
+
+			</table>	
+		</form>
+	</section>
+	<footer>
+		<p>Desenvolvido como exercício da disciplina Fundamentos de Desenvolvimento Web. ©Copyright 2019. Todos os Direitos Reservados.</p>
+	</footer>
+
+
+</body>
+</html>

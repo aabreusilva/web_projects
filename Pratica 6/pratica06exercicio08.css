@@ -1,0 +1,33 @@
+
+main {
+    margin: 2rem auto; 
+    width: 32rem;
+    height: 30rem;
+    background-color: coral;
+   }
+   
+
+h1 {
+    color: darkgreen;
+    font-family: fantasy;
+}
+#num1 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#num2 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#num3 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#num4 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#resultado {
+    color: deeppink;
+    font-size: 20px;
+}

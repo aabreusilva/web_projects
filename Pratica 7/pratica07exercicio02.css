@@ -1,0 +1,36 @@
+html, body {
+    font-size: 14px;
+    height:95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+table {
+    margin:2rem auto;
+}
+
+th,td {
+    padding: .5rem 3rem;
+}
+
+th {
+    background-color:#ef21cd;
+}
+
+th:hover {
+    background-color:#cc7ebf;
+    color:#f5efed;
+}
+
+tr:nth-child(even) {
+    background-color: #cf98d6;
+   }
+   tr:nth-child(odd) {
+    background-color: #ebc6ef;
+   }

@@ -1,0 +1,46 @@
+main {
+    background-color: coral;
+    margin: 2rem auto; 
+    width: 32rem;
+    height: 25rem;
+}
+#num1 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#num2 {
+    color: blue;
+    font-size: 15px;
+}
+#num3 {
+        color: brown;
+        font-size: 15px;    
+}
+#num4 {
+    color: chartreuse;
+    font-size: 15px;
+}
+#num5 {
+    color: darkblue;
+    font-size: 15px;
+}
+#lbl1 {
+    color: blueviolet;
+    font-size: 15px;
+}
+#lbl2 {
+    color: blue;
+    font-size: 15px;
+}
+#lbl3{
+        color: brown;
+        font-size: 15px;    
+}
+#lbl4{
+    color: chartreuse;
+    font-size: 15px;
+}
+#lbl5 {
+    color: darkblue;
+    font-size: 15px;
+}
